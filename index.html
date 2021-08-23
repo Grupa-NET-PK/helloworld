@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!-- JS -->
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
@@ -20,22 +21,35 @@
         body {
             background-color: #474098
         }
+
         footer {
-            background-color: #d2d1e2;
-            /* background-color: #a49cc4; */
+            /* background-color: #d2d1e2; */
             background-color: #66619d;
         }
+        
+        a {
+            color: #d2d1e2;
+        }
+
+        footer a:hover {
+            color: #474098;
+        }
+
+        body a:hover {
+            color: #66619d;;
+        }
+
         .display-2, .display-4, .content {
             font-family: "Playfair Display";
-            color: #d2d1e2;
+            color: white;
+        }
+
+        .content {
+            font-size: 15pt;
         }
 
         .display-4 {
             font-size: 30pt;
-        }
-
-        .content {
-            padding: 0px 15px;
         }
     </style>
 </head>
@@ -64,7 +78,12 @@
                 <div class="col">
                     <h1 class="display-4">Potrzebne materiały</h1>
                     <div class="content">
-                    Tekst oraz inne linki
+                            1. Pracujemy w technologii .NET - potrzebujemy IDE od Microsoftu, czyli <a href="https://visualstudio.microsoft.com/pl/downloads/">Visual Studio 2019 Community</a></br>
+                            2. .NET 5.0 też trzeba mieć. Pobierz go <a href="https://dotnet.microsoft.com/download/dotnet/5.0">tutaj</a></br>
+                            3. Korzystamy z systemu kontroli wersji <a href="https://git-scm.com/">git</a></br>
+                            4. Graficzne narzędzie do gita możesz wybrać sam. My polecamy <a href="https://tortoisegit.org/">TortoiseGit</a> oraz <a href="https://git-fork.com/">git-fork</a></br>
+                            5. Oraz oczywiście potrzebne Ci będzie konto na <a href="https://github.com/">Githubie</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -75,14 +94,14 @@
         <!-- PC Footer -->
         <div class="container text-center d-none d-md-block d-lg-block d-xl-block">
             <small>
-                Copyright 2021 © Grupa .NET PK - Stworzone z <span class="text-danger"><i class="fas fa-heart" aria-hidden="true"></i></span> przez
+                Copyright 2021 © Grupa .NET PK - Stworzone z  <span class="text-danger"><i class="fas fa-heart" aria-hidden="true"></i></span> przez
                 <a href="https://www.facebook.com/grupadotnetpk/" class="card-link footer-link">Grupa .NET PK</a>
             </small>
         </div>
         <!-- Mobile Footer -->
         <div class="container text-center d-md-none d-lg-none d-xl-none">
             <small>Copyright 2021 © Grupa .NET PK</small><br>
-            <small>Stworzone z <span class="text-danger"><i class="fas fa-heart" aria-hidden="true"></i></span> przez
+            <small>Stworzone z  <span class="text-danger"><i class="fas fa-heart" aria-hidden="true"></i></span> przez
                 <a href="https://www.facebook.com/grupadotnetpk/" class="card-link footer-link">Grupa .NET PK</a>
             </small>
         </div>
