@@ -27,6 +27,11 @@ footer {
   animation-iteration-count: infinite;
 }
 
+.img-net{
+  max-width: 20rem;
+  height: auto;
+}
+
 .hello {
   font-family: "Inconsolata", monospace;
   /*background-color: #1e1e1e;*/
