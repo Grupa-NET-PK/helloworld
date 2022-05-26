@@ -12,6 +12,31 @@ body {
   align-content: space-between;
 }
 
+.tile {
+  width: 300px;
+  height: 300px;
+  background-color: var(--secondary);
+  transition: background-color linear .2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.tile:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.tile p {
+  margin: 0px auto;
+  font-size: calc(0.75rem + 1.5vw);
+  font-weight: 700;
+}
+
 header,
 main,
 footer {
